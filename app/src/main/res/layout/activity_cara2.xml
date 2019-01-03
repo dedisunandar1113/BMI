@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cara1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="1dp"
+    tools:context="com.example.goddemon.myapplication.com.sun.goddemon.kazeti.Cara2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adview1"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner1" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="10dp"
+            tools:context="com.example.goddemon.myapplication.com.sun.goddemon.kazeti.Cara2">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana menjaga berat badan kalau saya hobi makan?"
+                android:textColor="#000fff"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah Anda pernah gagal dalam mencoba diet? Terkadang rencana diet yang tidak realistik membuat Anda semakin lapar dan berakhir pada makan yang berlebihan. Anda bisa tetap sering makan dan memiliki berat badan yang stabil. Ada beberapa cara yang bisa Anda lakukan untuk tetap menjaga berat badan, seperti:
+1. Membuat rencana
+Buatlah rencana jangka pendek dan jangka panjang tentang makanan sehat, camilan yang diinginkan, rutinitas olahraga, motivasi, dan ide-ide lainnya. Anda juga bisa membuat strategi menjaga berat badan, misalnya dengan mengkombinasikan antara makanan favorit dan makanan sehat. Anda bisa gunakan aplikasi smartphone untuk terus memantau perkembangan berat badan dan kalori yang masuk ke dalam tubuh Anda.
+2. Bergerak
+Ketika Anda memakan berbagai macam makanan tanpa Anda sadari, kalori yang masuk ke dalam tubuh pun bertambah. Biasakan tubuh Anda agar terus bergerak. Banyaknya aktivitas fisik dapat membantu mengelola berat badan Anda. Menurut Katherine Zeratsky ahli nutrisi Mayo Clinic, mengurangi kalori sebenarnya lebih efektif dibandingkan olahraga dalam proses penurunan berat badan. Meskipun begitu, berjalan kaki selama 30 menit setiap hari dapat menurunkan  0,15 kg setiap minggunya. Jika Anda menyukai olahraga, bahkan Anda bisa menurunkan berat badan lebih cepat, tidak hanya menjaga berta badan.
+Ketika Anda ingin menurunkan berat badan, diet menjadi faktor utama dalam kesuksesannya. Namun ketika Anda ingin mengatur berat badan, maka berolahraga adalah faktor yang penting, menurut Dr. Jacinda Nicklas, seorang dokter dan peneliti di University of Colorado Denver School of Medicine, yang dikutip oleh Livescience.dom. Kenapa olahraga sangat berpengaruh dalam menjaga berat badan? Alasannya adalah agar tubuh kita terhindar dari metabolisme yang melambat, sehingga Anda juga terhindar dari naiknnya berat badan.
+3. Tetap makan
+Mencoba mengelola kalori yang masuk ke dalam tubuh, bukan berarti Anda tidak memakan sesuatu atau merasa lapar. Jika Anda memang hobi makan, makan saja, tetapi pilihlah makanan yang sehat dan rendah kalori. Jika Anda mudah tergoda dengan pie, kue, keripik kentang, dan makanan berlemak lainnya, Anda bisa memilih makanan yang hampir sama tetapi lebih sehat. Contohnya Anda bisa mengganti es krim batang dengan pisang yang dibekukan, atau keripik sayur untuk menggantikan keripik kentang dalam kemasan.
+4. Ganti menu dengan porsi yang sama
+Anda tetap bisa memiliki porsi sepiring penuh, jika Anda mengganti beberapa tipe makanan. Sebagai contohnya, Anda bisa mencoba 50% porsi piring dengan buah dan sayur, 25% biji-bijian atau gandum (misalnya beras merah), dan 25% protein. Protein dapat membuat tubuh Anda kenyang lebih lama.
+5. Jangan melewatkan sarapan
+Penelitian yang dikutip oleh Livescience.com menunjukkan bahwa orang yang melewatkan sarapan cenderung mengalami peningkatan berat badan dibanding dengan yang tidak melewatkannya. Menurut National Institutes of Health, hal ini terjadi karena orang cenderung merasa lapar pada siang hari. Ketika menahan lapar, hormon leptin pun dikeluarkan, sehingga Anda memakan apa pun tanpa kendali, ditambah lagi Anda akan ngemil tidak terkendali juga.
+6. Jangan menahan makan makanan kesukaan Anda
+Biar pun Anda sedang mengatur pola makan, Anda bisa tetap memakan makanan kesukaan Anda. Ketika Anda ingin memakannya, Anda bisa memakannya, tetapi seimbangkan dengan buah, sayur, biji-bijian, susu rendah lemak, dan air putih. Menurut Mary Ellen DiPaola, seorang ahli diet terdaftar di University of California, San Francisco Medical Center yang dikutip Livescience.com, menyeimbangkan asupan dengan makanan sehat dapat membuat Anda merasa kenyang dan mengurangi rasa lapar meski asupan kalori rendah.
+7. Makan dengan sadar seutuhnya
+Anda mungkin akan ngemil sambil menonton televisi. Memang rasanya nikmat makan sambil menonton televisi, namun hal tersebut akan membuat Anda memakan lagi dan lagi. Ketika Anda makan makanan yang tinggi kalori, usahakan Anda memakannya dengan kesadaran penuh, merasakan setiap gigitan, sadar ketika Anda menelan makanan tersebut, dan nikmati setiap rasa yang dihasilkan oleh makanan tersebut.
+"
+                android:textColor="#efeff4" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

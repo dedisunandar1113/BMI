@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.goddemon.myapplication.com.sun.goddemon.kazeti.Cara3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adview1"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="?actionBarSize"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner2"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_cara3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.goddemon.myapplication.com.sun.goddemon.kazeti.Cara3">
+
+
+      <LinearLayout
+          android:padding="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <Button
+              android:id="@+id/back2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:drawableLeft="@drawable/ic_arrow_back_black_24dp"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Tips Diet"
+              android:textStyle="bold"
+              android:textColor="#0000ff"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="5 Langkah Turunkan Berat Badan Tanpa Ribet"
+              android:textSize="16dp"
+              android:textStyle="italic"
+              android:textColor="#ffffff"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:text="Tips diet tentang lima langkah menurunkan berat badan tanpa ribet.
+Waktu yang terbatas menjadi salah satu alasan banyak orang gagal melakukan diet. Akibatnya, tanpa disadari berat badan akan terus meningkat dan membuat rasa percaya diri menurun. Padahal, sebenarnya ada beberapa cara sederhana yang bisa dilakukan untuk menurunkan berat badan meski pekerjaan bertumpuk.
+Mau tahu, bagaimana cara sederhana menurunkan berat badan bagi si pemilik segudang kesibukan? Simak ulasan yang dihimpun Solopos.com dari Pop Sugar, Selasa (2/1/2018), di bawah ini:
+
+Sarapan
+Sesibuk apapun, jangan pernah melewatkan sarapan. Sebab, sarapan memberikan energi yang cukup bagi tubuh untuk beraktivitas. Sebaiknya, makanlah makanan yang tinggi protein untuk menstabilkan metabolisme dan memberikan tenaga. Sarapan akan membuat perut kenyang lebih lama dan menghindari makan berlebihan di siang hari.
+
+Atur jam makan
+Kebanyakan orang biasanya menunda waktu makan karena alasan kesibukan. Pada akhirnya, kebiasaan ini memicu masalah di pencernaan. Selain itu, membiarkan perut kosong dalam waktu yang lama juga memperlambat metabolisme tubuh. Sebaiknya, atur jam makan dengan baik agar berat badan stabil dan tubuh sehat.
+
+Hindari makanan manis
+Mengemil menjadi salah satu solusi saat perut keroncongan di tengah kesibukan. Tapi, hindarilah camilan manis yang justru membahayakan tubuh. Sebab, camilan manis mengandung banyak gula yang  bakal menumpuk menjadi lemak di dalam tubuh.
+
+Bergerak
+Jangan malas untuk bergerak meski pekerjaan Anda sangat banyak. Cukup sisihkan waktu selama beberapa menit untuk bangkit dari kursi dan mengelilingi ruangan. Selain itu, Anda juga bisa mengetik sambil berdiri selama beberapa saat untuk melancarkan peredaran darah.
+
+Tidur cukup
+Kurang tidur dapat memperlambat metabolisme tubuh. Artinya, pembakaran lemak dalam tubuh akan ikut terhambat. Oleh sebab itu, perhatikan waktu istirahat Anda. Hindari membawa pekerjaan kantor ke rumah. Sebab, hal itu akan membuat waktu istirahat terganggu.
+Itulah beberapa cara menurunkan dan menjaga bobot tubuh tanpa olahraga dan diet ketat. Anda hanya perlu konsisten menjalankannya. Dengan demikian, bobot tubuh akan menjadi stabil dengan sendirinya, tanpa perlu menguras banyak energi
+"/>
+
+      </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
